@@ -1,0 +1,5 @@
+discord.py
+pymupdf
+requests~=2.32.4
+flask~=3.1.1
+python-dotenv
