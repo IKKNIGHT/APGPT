@@ -31,7 +31,7 @@ flask_thread.start()
 # === DISCORD BOT SETUP ===
 intents = discord.Intents.default()
 intents.message_content = True
-bot = commands.Bot(command_prefix="!", intents=intents)
+bot = commands.Bot(command_prefix=".", intents=intents) # change the prefix to whatever
 
 # === LOAD PDF DOCUMENTS ===
 def load_pdfs(folder=PDF_FOLDER):
