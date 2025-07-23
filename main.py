@@ -138,7 +138,7 @@ Question: {question}
         # DM the user in 2000-character chunks
         for i in range(0, len(answer), 2000):
             await ctx.author.send(answer[i:i+2000])
-        await ctx.send("📬 Sent you a DM with the AP answer!")
+        await ctx.send("📬 Sent you a DM with the AP answer! (You will be DM'D ETA (15s))")
     except discord.Forbidden:
         await ctx.send("❌ I couldn't DM you. Please enable DMs from server members.")
 

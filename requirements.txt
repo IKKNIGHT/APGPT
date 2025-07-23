@@ -1,6 +1,5 @@
 discord.py
-pymupdf
-requests
-flask
 python-dotenv
+PyMuPDF
+Flask
 openai
